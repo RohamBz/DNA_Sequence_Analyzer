@@ -1,0 +1,5 @@
+--- DNA Analysis Report ---
+Length: 36
+Counts: {'A': 10, 'T': 8, 'C': 9, 'G': 9}
+Reverse Complement: GTTAGCCTTGAATCCGGATGCCTAAGCTTAGGCCAT
+GC Content: 50.0%
