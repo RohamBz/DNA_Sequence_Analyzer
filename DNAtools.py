@@ -52,7 +52,7 @@ def report(output_file, gc_all, counts_per_base, rev_sequence, seq_length):
         f.write(f'Counts: {counts_per_base}\n')
         f.write(f'Reverse Complement: {rev_sequence}\n')
         f.write(f'GC Content: {round(gc_all, 2)}%\n')
-    print(f'\nReport successfully saved to {fasta}!')
+    print(f'\nReport successfully saved to {output_file}')
 
 valid_bases = ['a', 't', 'c', 'g']
 all_seq = readfasta('fasta.txt')
